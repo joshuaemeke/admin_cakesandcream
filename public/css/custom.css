@@ -1,0 +1,392 @@
+/* Custom styles for Inspinia */
+
+a, a:hover { color: #008bb1 }
+
+.user-sidebar-menu {
+  width: 100%;
+  left: 0 !important;
+  border-radius: 0;
+  background-color: #00617a;
+  color: #ffffff;
+  font-size: 13px;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+
+.user-sidebar-menu li.dropdown-divider {
+  border-color: #007896;
+}
+
+.user-sidebar-menu li > a:hover {
+  color: #ffffff !important;
+}
+
+.nav-header {
+  padding: 16px 0;
+}
+
+.nav-header .dropdown {
+  padding: 0 25px;
+}
+
+.nav-header .font-bold {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.nav-header .text-xs {
+  font-size: 12px;
+}
+
+body.mini-navbar .nav-header {
+  background-color: #2f4050;
+}
+
+body.mini-navbar.fixed-sidebar .nav-header {
+  padding: 28px 0;
+}
+
+.nav > li {
+  font-size: 14px;
+}
+
+.nav > li.active {
+  border-left: 0;
+}
+
+.nav > li.active > a {
+  color: #008bb1;
+  font-weight: bold;
+}
+
+.navbar-header h3 {
+  display: inline-block;
+  margin: 18px 10px 18px 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.navbar-header a {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 21px;
+  margin-left: 12px;
+}
+
+@media (min-width: 768px) {
+  .navbar-right {
+      margin-right: 10px;
+  }
+}
+
+.nav .label { margin-top: 2.5px }
+.ibox .label { margin-top: 1px }
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+  color: #008bb1;
+  background-color: transparent;
+}
+
+.dropdown-menu > li:last-child {
+  margin-bottom: 10px;
+}
+
+.navbar-top-links li a.user-profile {
+  padding: 10px 10px 10px 35px;
+}
+
+.nav > li > a.user-profile i {
+  font-size: 28px;
+  margin-right: 0;
+}
+
+.nav > li > a.user-profile i:before {
+  height: 28px;
+  width: 28px;
+  content: url('../img/avatar-inside-a-circle.svg');
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+@media (min-width: 768px) {
+  .navbar-static-side {
+    position: fixed;
+  }
+}
+
+/* Modal */
+
+.modal-header {
+  border-bottom: 1px solid #f5f9f6;
+}
+
+.modal-footer {
+  border-top: 1px solid #f5f9f6;
+}
+
+.modal-header .close {
+  float: right;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 0.72;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .35;
+  padding: .68rem;
+  margin: -1rem -1rem -1rem auto;
+}
+
+/* IBox */
+
+.ibox {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.ibox-title {
+  border-top: 0;
+}
+
+.ibox-title h3 {
+  font-weight: 400;
+  margin-bottom: 5px;
+  margin-top: 1px;
+}
+
+/* Forms */
+
+.control-label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group small {
+  margin-top: 12px;
+  display: block;
+  font-size: 12px;
+}
+
+/* Tabs */
+
+.nav-tabs {
+  border-top: 1px solid #dee2e6;
+}
+
+.nav-tabs .nav-link {
+  border-width: 0;
+  border-radius: 0;
+  position: relative;
+}
+
+.nav-tabs > li > a {
+  border-right: 1px solid #dee2e6 !important;
+}
+
+.nav-tabs > li > a > .label {
+  font-size: 9px;
+  margin-left: 8px;
+  margin-top: 0;
+  padding: 2px 5px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #008bb1;
+}
+
+.nav-tabs .nav-link.active:before {
+  content: "";
+  position: absolute;
+  bottom: 0; right: 50%;
+  margin-right: -7px;
+  border: 7px solid transparent;
+  border-bottom-color: #dee2e6;
+}
+
+.nav-header {
+  background-image: none;
+}
+
+/* Buttons */
+
+.btn-success {
+  background-color: #008bb1;
+  border-color: #008bb1;
+}
+
+/* Tables*/
+
+table.footable>tbody>tr>td,
+table.footable>thead>tr>th {
+  font-size: 14px;
+}
+
+table.footable>thead>tr>th {
+  font-size: 15px;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  border-top: 1px solid #e7eaec;
+  line-height: 1.56857;
+  padding: 10px 8px;
+  vertical-align: top;
+}
+
+table tr.footable-detail-row,
+table.footable-details {
+  background-color: #f7fdff !important;
+}
+
+table.footable-details > tbody > tr,
+table.footable-details > tbody > tr > th,
+table.footable-details > tbody > tr > td {
+  border-top: 0;
+  padding: 4px 8px;
+}
+
+.footable-odd {
+  background-color: #ffffff;
+}
+
+.pagination .footable-page.active a {
+  background-color: #008bb1;
+  border-color: #008bb1;
+}
+
+/* Badge */
+
+.badge:empty {
+  width: 9px;
+  height: 9px;
+  border-radius: 4.5px;
+  display: inline-block;
+  padding: 0;
+}
+
+/* ContactBox */
+
+.contact-box {
+  border-radius: 6px;
+}
+
+.app-switch {}
+
+.app-switch span {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #ccc;
+  font-size: 13px;
+  line-height: 13px;
+  vertical-align: middle;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 42px;
+  height: 24px;
+  margin-bottom: 0;
+}
+
+.switch.small {
+  width: 32px;
+  height: 18px;
+}
+
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.switch.small .slider:before {
+  height: 12px;
+  width: 12px;
+  left: 3px;
+  bottom: 3px;
+}
+
+input:checked + .slider {
+  background-color: #3bb75e;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #3bb75e;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(18px);
+}
+
+.switch.small input:checked + .slider:before {
+  -webkit-transform: translateX(14px);
+  -ms-transform: translateX(14px);
+  transform: translateX(14px);
+}
+
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 24px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/*
+<!-- Rectangular switch -->
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider"></span>
+</label>
+
+<!-- Rounded switch -->
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+*/
+
+.new-button{
+  font-size: 0.95rem;
+  font-weight: 300;
+}

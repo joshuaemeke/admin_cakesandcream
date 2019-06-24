@@ -1,6 +1,10 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./views/Home.vue";
+import Orders from "./views/Orders.vue";
+import Products from "./views/Products.vue";
+import Categories from "./views/Categories.vue";
+import Customers from "./views/Customers.vue";
+import Allusers from "./views/Allusers.vue";
 
 Vue.use(Router);
 
@@ -10,8 +14,28 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "home",
-      component: Home
+      name: "order",
+      component: Orders
+    },
+    {
+      path: "/products",
+      name: "product",
+      component: Products
+    },
+    {
+      path: "/categories",
+      name: "category",
+      component: Categories
+    },
+    {
+      path: "/customers",
+      name: "customer",
+      component: Customers
+    },
+    {
+      path: "/all-users",
+      name: "alluser",
+      component: Allusers
     },
     {
       path: "/about",
