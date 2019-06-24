@@ -12,6 +12,7 @@ export default {
   name: "alluser",
   components: {
     Allusers
+    
   }
 };
 </script>

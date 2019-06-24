@@ -15,7 +15,6 @@
     <link href="/css/style.css" rel="stylesheet">
     <link href="/css/custom.css" rel="stylesheet">
     <link href="/bootstrap-sortable.css" rel="stylesheet" type="text/css">
-<script src="/bootstrap-sortable.js"></script> 
 
     <title>admin-cakes</title>
   </head>
@@ -48,41 +47,41 @@
  
          });
  
- $(document).ready(function(){
-     $.ajax({
-         url: "http://damp-forest-94671.herokuapp.com/orders",
-         dataType: 'json',
-         type: 'get',
-         cache:false,
-         success: function(data){
-             /*console.log(data);*/
-             var i = 1;
-             var event_data = '';
+//  $(document).ready(function(){
+//      $.ajax({
+//          url: "http://damp-forest-94671.herokuapp.com/orders",
+//          dataType: 'json',
+//          type: 'get',
+//          cache:false,
+//          success: function(data){
+//              /*console.log(data);*/
+//              var i = 1;
+//              var event_data = '';
             
-             $.each(data.order, function(index, value){
-                 var date = new Date(value.createdAt);
+//              $.each(data.order, function(index, value){
+//                  var date = new Date(value.createdAt);
                  
-                 /*console.log(value);*/
-                 event_data += '<tr>';
-                 event_data += '<td>'+ index +'</td>';
-                 event_data += '<td>'+value.order_id+'</td>';
-                 event_data += '<td><span class="badge badge-warning"></span></td>';
-                 event_data += '<td>'+value.customer_name+'</td>';
-                 event_data += '<td>&#8358;'+ '102,500' +'</td>';
-                 event_data += '<td>'+date.toDateString()+'</td>';
-                 event_data += '<td><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-link text-primary"></i><span class="d-none d-sm-inline">'+ 'View Order' +'</span></a></td>';
-                 event_data += '</tr>';
-             });
-             $("#example").append(event_data);
+//                  /*console.log(value);*/
+//                  event_data += '<tr>';
+//                  event_data += '<td>'+ index +'</td>';
+//                  event_data += '<td>'+value.order_id+'</td>';
+//                  event_data += '<td><span class="badge badge-warning"></span></td>';
+//                  event_data += '<td>'+value.customer_name+'</td>';
+//                  event_data += '<td>&#8358;'+ '102,500' +'</td>';
+//                  event_data += '<td>'+date.toDateString()+'</td>';
+//                  event_data += '<td><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-link text-primary"></i><span class="d-none d-sm-inline">'+ 'View Order' +'</span></a></td>';
+//                  event_data += '</tr>';
+//              });
+//              $("#example").append(event_data);
              
              
-         },
-         error: function(d){
-             /*console.log("error");*/
-             alert("404. Please wait until the File is Loaded.");
-         }
-     });
- });
+//          },
+//          error: function(d){
+//              /*console.log("error");*/
+//              alert("404. Please wait until the File is Loaded.");
+//          }
+//      });
+//  });
  
      </script>
   </body>

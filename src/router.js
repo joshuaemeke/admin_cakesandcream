@@ -5,6 +5,8 @@ import Products from "./views/Products.vue";
 import Categories from "./views/Categories.vue";
 import Customers from "./views/Customers.vue";
 import Allusers from "./views/Allusers.vue";
+import AddProduct from "./views/AddProduct.vue";
+import AddCategory from "./views/AddCategory.vue";
 
 Vue.use(Router);
 
@@ -36,6 +38,16 @@ export default new Router({
       path: "/all-users",
       name: "alluser",
       component: Allusers
+    },
+    {
+      path: "/new-product",
+      name: "addproduct",
+      component: AddProduct
+    },
+    {
+      path: "/new-category",
+      name: "addcategory",
+      component: AddCategory
     },
     {
       path: "/about",

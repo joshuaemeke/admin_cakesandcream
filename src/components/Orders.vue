@@ -110,146 +110,20 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <!-- <tr>
-                                        <th scope="row">1</th>
-                                        <td>RH9bS9F9K0-VI</td>
-                                         <td><span class="badge badge-danger"></span></td>
-                                        <td>Benny</td>
-                                        <td>&#8358;102,500</td>
-                                        <td>16th May 2019</td>
-                                        <td>
-                                                <a href="#" data-toggle="modal" data-target="#myModal2">
-                                                        <i class="fa fa-link text-primary"></i>
-                                                        <span class="d-none d-sm-inline">View</span> Order
-                                                    </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>A7K7KChp8J-SL</td>
-                                        <td><span class="badge badge-primary"></span></td>
-                                        <td>Ope</td>
-                                        <td>&#8358;40,000</td>
-                                        <td>14th May 2019</td>
-                                        <td>
-                                                <a href="#" data-toggle="modal" data-target="#myModal">
-                                                        <i class="fa fa-link text-primary"></i>
-                                                        <span class="d-none d-sm-inline">View</span> Order
-                                                    </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td>rx8xNRgBoe-BG	</td>
-                                        <td><span class="badge badge-primary"></span></td>
-                                        <td>Adeola</td>
-                                        <td>&#8358;65,500</td>
-                                        <td>5th May 2019</td>
-                                        <td>
-                                                <a href="#" data-toggle="modal" data-target="#myModal">
-                                                        <i class="fa fa-link text-primary"></i>
-                                                        <span class="d-none d-sm-inline">View</span> Order
-                                                    </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                            <th scope="row">4</th>
-                                            <td>2KyqSdGOMf-OP</td>
-                                             <td><span class="badge badge-warning"></span></td>
-                                            <td>olabisi</td>
-                                            <td>&#8358;102,500</td>
-                                            <td>16th May 2019</td>
-                                            <td>
-                                                    <a href="#" data-toggle="modal" data-target="#myModal3">
-                                                            <i class="fa fa-link text-primary"></i>
-                                                            <span class="d-none d-sm-inline">View</span> Order
-                                                        </a>
-                                            </td>
-                                    </tr>
-                                    <tr>
-                                            <th scope="row">5</th>
-                                            <td>2XuqKm1cW2-OP</td>
-                                                <td><span class="badge badge-primary"></span></span></td>
-                                            <td>Ikechukwu</td>
-                                            <td>&#8358;102,500</td>
-                                            <td>16th May 2019</td>
-                                            <td>
-                                                    <a href="#" data-toggle="modal" data-target="#myModal">
-                                                            <i class="fa fa-link text-primary"></i>
-                                                            <span class="d-none d-sm-inline">View</span> Order
-                                                        </a>
-                                            </td>
-                                    </tr>
-                                    <tr>
-                                            <th scope="row">6</th>
-                                            <td>LmYDfgbuE6-SL</td>
-                                                <td><span class="badge badge-primary"></span></span></td>
-                                            <td>Adeleke</td>
-                                            <td>&#8358;102,500</td>
-                                            <td>16th May 2019</td>
-                                            <td>
-                                                    <a href="#" data-toggle="modal" data-target="#myModal">
-                                                            <i class="fa fa-link text-primary"></i>
-                                                            <span class="d-none d-sm-inline">View</span> Order
-                                                        </a>
-                                            </td>
-                                    </tr>
-                                    <tr>
-                                            <th scope="row">7</th>
-                                            <td>TNDEEOolUC-BG</td>
-                                                <td><span class="badge badge-primary"></span></td>
-                                            <td>Christian</td>
-                                            <td>&#8358;102,500</td>
-                                            <td>16th May 2019</td>
-                                            <td>
-                                                    <a href="#" data-toggle="modal" data-target="#myModal">
-                                                            <i class="fa fa-link text-primary"></i>
-                                                            <span class="d-none d-sm-inline">View</span> Order
-                                                        </a>
-                                            </td>
-                                    </tr>
-                                    <tr>
-                                            <th scope="row">8</th>
-                                            <td>aYRoBK8IFW-VI</td>
-                                                <td><span class="badge badge-primary"></span></td>
-                                            <td>Ade</td>
-                                            <td>&#8358;102,500</td>
-                                            <td>16th May 2019</td>
-                                            <td>
-                                                    <a href="#" data-toggle="modal" data-target="#myModal">
-                                                            <i class="fa fa-link text-primary"></i>
-                                                            <span class="d-none d-sm-inline">View</span> Order
-                                                        </a>
-                                            </td>
-                                    </tr>
-                                    <tr>
-                                            <th scope="row">9</th>
-                                            <td>rx8xNRgBoe-BGI</td>
-                                                <td><span class="badge badge-primary"></span></td>
-                                            <td>Quadri</td>
-                                            <td>&#8358;102,500</td>
-                                            <td>16th May 2019</td>
-                                            <td>
-                                                    <a href="#" data-toggle="modal" data-target="#myModal">
-                                                            <i class="fa fa-link text-primary"></i>
-                                                            <span class="d-none d-sm-inline">View</span> Order
-                                                        </a>
-                                            </td>
-                                    </tr>
-                                    <tr>
-                                            <th scope="row">10</th>
-                                            <td> A7K7KChp8J-SL</td>
-                                                <td><span class="badge badge-primary"></span></td>
-                                            <td>Benny</td>
-                                            <td>&#8358;102,500</td>
-                                            <td>16th May 2019</td>
-                                            <td>
-                                                    <a href="#" data-toggle="modal" data-target="#myModal">
-                                                            <i class="fa fa-link text-primary"></i>
-                                                            <span class="d-none d-sm-inline">View</span> Order
-                                                        </a>
-                                            </td>
-                    </tr>-->
+                    <tr v-for="(order,index) in orders" :key="order.order_id">
+                      <td>{{index }}</td>
+              <td>{{ order.order_id }}</td>
+              <td><span class="badge badge-warning"></span></td>
+              <td>{{ order.customer_name }}</td>
+              <td>&#8358;{{ order.grandTotal }}</td>
+              <td>{{ new Date(order.createdAt).toDateString()}}</td>
+              
+              <!-- <b-button type="button" variant="primary" @click="primaryModal = true" class="mr-1">Show</b-button> -->
+              <td>
+                <!-- <b-button @click="remove(order._id)" class="mr-1">Cancel</b-button> -->
+                <router-link :to="{path: 'ViewOrder/'+ order._id }"><i class="fa fa-link text-primary"></i> View Order</router-link>
+              </td>
+            </tr>
                   </tbody>
                 </table>
               </div>
@@ -265,11 +139,37 @@
 
 <script>
 import Footer from "@/components/Footer.vue";
+import axios from "axios";
 export default {
   name: "Orders",
   components: {
     Footer
-  }
+  },
+   data() {
+    return {
+      orders: [],
+      AuthStr: JSON.parse(localStorage.getItem("jwt")),
+      UserStr: JSON.parse(localStorage.getItem("user")),
+      message: ""
+    };
+  },
+ mounted() {
+    axios
+      .get("http://damp-forest-94671.herokuapp.com/orders", {
+        headers: { Authorization: this.AuthStr }
+      })
+      .then(response => {
+        localStorage.getItem("user", JSON.stringify(this.UserStr));
+        localStorage.getItem("jwt", JSON.stringify(this.AuthStr));
+        console.log(JSON.stringify(this.AuthStr));
+        this.orders = response.data.order;
+      })
+      .catch(error => {
+        console.log(error);
+        this.errored = true;
+      })
+      .finally(() => (this.loading = false));
+  },
 };
 </script>
 
